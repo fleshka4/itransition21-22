@@ -1,0 +1,1 @@
+if(process.argv.length!=2){if(process.argv.length!=3){r='';a=process.argv;b=a[2];for(i=0;i<b.length;i++){y='';flag=0;for(j=i; j<b.length; j++){y+=b[j];for(k=3; k<a.length; k++){if(!a[k].includes(y)){flag=0;break;}else{flag=1;}}if(flag&&y.length>r.length){r=y;}}}console.log(r);}else{console.log(process.argv[2])}}else{console.log()}
